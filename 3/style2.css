@@ -1,4 +1,4 @@
- /* style.css */
+/* style.css */
 
 body{
   background: #fff;
@@ -23,13 +23,6 @@ nav ul {
   float: left;
   margin-top: 25px;
 }
-
-
-.red{
-  color:red;
-  font=size: 20px;
-  }
-
 
 h1{
   font-family: 'Roboto', sans-serif;
@@ -59,11 +52,9 @@ a:hover {
 }
 
 #logo{
-  color: rgb(225, 0, 152);
+  color: #fff;
   font-size: 35px;
-  font-family: 'Pacifico', cursive;
-  float: left;
-  margin-left: 50px;
+  font-family: 'Pacifico', cursive; float: left; margin-left: 50px;
 }
 
 /* Mis en forme de la baseline */
@@ -90,22 +81,34 @@ a:hover {
 
 #baseline a:hover {
   position: relative;
-  top:1px;
+  top:100px;
 }
 
-#apropos{
+#welcome{
+  background-color: #41A3C0;
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+#welcome h4{
+ font-size: 50px;
+}
+
+.feature {border: 1px solid #000;margin: 15px;
+padding: 15px 0;
+text-align: center; background-color: #ECECEC;
+width: 400px;}
+
+ #apropos{ 
+display:flex ; flex-wrap: wrap;justify-content: center;
+  border: 1px solid #000;
   margin: 0 auto;
   width: 80%;
-  display:flex
-  justify-content: center;
 }
+.red{
+  color:red;
+  font-size:15px;
+  }
 
-.feature {border: 10px grey;
-  margin: 15px;
-padding: 15px 0;
-text-align: center;
-width: 400px;
-background: pink;
-}
-
-
+.footer {border: 10px solid #000; text-align: center; font-family: 'Comic Sans MS';}
