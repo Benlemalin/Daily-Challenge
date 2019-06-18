@@ -25,6 +25,10 @@ nav ul {
 }
 
 
+.red{
+  color:red;
+  font=size: 20px;
+  }
 
 
 h1{
@@ -96,12 +100,12 @@ a:hover {
   justify-content: center;
 }
 
-.feature {border: 10px solid red;
+.feature {border: 10px grey;
   margin: 15px;
 padding: 15px 0;
 text-align: center;
 width: 400px;
-background: red;
+background: pink;
 }
 
 
